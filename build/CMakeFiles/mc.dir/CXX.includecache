@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tomasztomasz/c++/monte_carlo/src/EurOption.h
+models.h
+/home/tomasztomasz/c++/monte_carlo/src/models.h
+
+/home/tomasztomasz/c++/monte_carlo/src/PathDepOption.h
+models.h
+/home/tomasztomasz/c++/monte_carlo/src/models.h
+
+/home/tomasztomasz/c++/monte_carlo/src/main.cpp
+iostream
+-
+random
+-
+math.h
+-
+PathDepOption.h
+/home/tomasztomasz/c++/monte_carlo/src/PathDepOption.h
+EurOption.h
+/home/tomasztomasz/c++/monte_carlo/src/EurOption.h
+
+/home/tomasztomasz/c++/monte_carlo/src/models.h
+vector
+-
+
