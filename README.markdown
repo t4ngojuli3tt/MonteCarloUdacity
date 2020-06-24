@@ -39,5 +39,3 @@ This structure allows easly expand fuctionality of this code by adding new model
 
 
 
-To-do 
-Vasicek, PathDependat Option rewrite, American options  - środa
