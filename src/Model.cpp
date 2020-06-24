@@ -1,10 +1,10 @@
-#include "models.h"
+#include "Model.h"
 #include <cmath>
 #include <random>
 
 
-
 using namespace std; 
+
 const double PI=4.0*atan(1.0);
 
 double Gauss()
@@ -22,6 +22,7 @@ return sqrt(-2*log(z1))*cos(2*PI*z2);
 
 void BSModel::GenerateSamplePath(double T, int m, SamplePath& S) 
 {
+// Generate sample path for a stock which follows Black-Scholtz model. 
     double St = getS0();
     for(int k=0; k<m; k++)
     {
